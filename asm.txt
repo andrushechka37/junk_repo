@@ -1,0 +1,121 @@
+push 1
+pop rax
+push 3
+pop rbx
+push 1
+pop rcx
+push 0
+pop rdx
+call :4
+call :5
+hlt
+
+
+
+:4
+push rbx
+push rbx
+mul
+push 4
+push rax
+mul
+push rcx
+mul
+sub
+pop rdx
+ret
+
+
+
+
+
+
+:5
+push rax
+push 0
+jne :0
+push rbx
+push 0
+je :1
+push -1
+push rbx
+mul
+push rcx
+div
+pop rgx
+push rgx
+out
+ret
+:1
+push rbx
+push 0
+jne :2
+push rcx
+push 0
+jne :3
+push 9999
+out
+ret
+:3
+:2
+push -1111
+out
+ret
+:0
+push rdx
+push 0
+jbe :6
+push -1
+push rbx
+mul
+push rdx
+sqrt
+add
+push 2
+push rax
+mul
+div
+pop rgx
+push -1
+push rbx
+mul
+push rdx
+sqrt
+sub
+push 2
+push rax
+mul
+div
+pop rhx
+push rgx
+out
+push rhx
+out
+ret
+:6
+push rdx
+push 0
+jne :7
+push -1
+push rbx
+mul
+push 2
+push rax
+mul
+div
+pop rgx
+push rgx
+out
+ret
+:7
+push rdx
+push 0
+jae :8
+push -1111
+out
+ret
+:8
+ret
+
+
+

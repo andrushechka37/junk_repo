@@ -1,0 +1,59 @@
+
+-------git-----------------
+10. think about names of commits
+13. do not commit generated files
+14. do not commit junk, check before commitimg
+
+------naming------------
+2. naming(imperative, compare (imperative), use verbs in imperative)
+3. naming style
+15. use verbs in naming
+25. "list_func.cpp" GOVNO
+29. Style of naming list_del list_add
+30. list_STRUCT GOVNOOOOOOO
+31. verify instead of verificator
+
+-------code style-----------
+1. .PHONY with capital letters
+5. array[ip] is more readable than *(array + ip)
+11. DO NOT COMMENT CODE
+16. use spaces to separate funcs from each other
+12. do not use "magic numbers, especially in array initialization
+6. CHECK indentation
+33. DEFINES
+34. \n's are very important
+
+---------headers-----------------
+
+
+4. use headers, header for each file
+17 do not add extra funcs to header, make another header or static functions
+7. use static functions
+18. add in headers only funcs that user need, tool funcs should be static in cpp file
+                    list.h
+                    /
+                   / 
+                  / inlclude
+                 dump.header  
+                 /
+                / 
+                smth.h
+24. inline and extern funcs
+                 
+
+
+
+------------general----------------------------
+8. make universal functions
+9. make better make files, they dont work properly
+19. if you want to do govno do it with place holder macro
+20. think about users wishes
+21. add a Readme
+22. make documentation
+23. programm without tests govno
+26. free means working with dynamic memory
+31. check spelling
+55 MACRO WITH CAPS
+56 do not hide important info in default values 
+
+

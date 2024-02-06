@@ -1,0 +1,42 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/anzhiday/Documents/WolframOmega/recursive_down'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10get_numberv, symObjAddr: 0x0, symBinAddr: 0x1000013F0, symSize: 0x12C }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _ip, symObjAddr: 0x7628, symBinAddr: 0x1000080D8, symSize: 0x0 }
+  - { offsetInCU: 0x6E, offset: 0x6E, size: 0x8, addend: 0x0, symName: _str, symObjAddr: 0x26C8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x88, size: 0x8, addend: 0x0, symName: _plog, symObjAddr: 0x7630, symBinAddr: 0x1000080E0, symSize: 0x0 }
+  - { offsetInCU: 0x297, offset: 0x297, size: 0x8, addend: 0x0, symName: _op_names_numbers, symObjAddr: 0x26D8, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x31C, offset: 0x31C, size: 0x8, addend: 0x0, symName: _graph_number, symObjAddr: 0x26D0, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x331, offset: 0x331, size: 0x8, addend: 0x0, symName: _error_status, symObjAddr: 0x2798, symBinAddr: 0x1000080D0, symSize: 0x0 }
+  - { offsetInCU: 0x6AA, offset: 0x6AA, size: 0x8, addend: 0x0, symName: __Z10get_numberv, symObjAddr: 0x0, symBinAddr: 0x1000013F0, symSize: 0x12C }
+  - { offsetInCU: 0x6D6, offset: 0x6D6, size: 0x8, addend: 0x0, symName: __Z9node_ctord13types_of_nodeP17diff_tree_elementS1_S1_, symObjAddr: 0x12C, symBinAddr: 0x10000151C, symSize: 0xD4 }
+  - { offsetInCU: 0x74F, offset: 0x74F, size: 0x8, addend: 0x0, symName: __Z12get_variablev, symObjAddr: 0x200, symBinAddr: 0x1000015F0, symSize: 0xB8 }
+  - { offsetInCU: 0x76C, offset: 0x76C, size: 0x8, addend: 0x0, symName: __Z11get_long_opv, symObjAddr: 0x2B8, symBinAddr: 0x1000016A8, symSize: 0x2F0 }
+  - { offsetInCU: 0x7EC, offset: 0x7EC, size: 0x8, addend: 0x0, symName: __Z17get_subexpressionv, symObjAddr: 0x5A8, symBinAddr: 0x100001998, symSize: 0x174 }
+  - { offsetInCU: 0x83A, offset: 0x83A, size: 0x8, addend: 0x0, symName: __Z11get_bracketv, symObjAddr: 0x71C, symBinAddr: 0x100001B0C, symSize: 0xBC }
+  - { offsetInCU: 0x874, offset: 0x874, size: 0x8, addend: 0x0, symName: __Z7get_powv, symObjAddr: 0x7D8, symBinAddr: 0x100001BC8, symSize: 0xA0 }
+  - { offsetInCU: 0x8C2, offset: 0x8C2, size: 0x8, addend: 0x0, symName: __Z14get_add_or_subv, symObjAddr: 0x878, symBinAddr: 0x100001C68, symSize: 0x17C }
+  - { offsetInCU: 0x910, offset: 0x910, size: 0x8, addend: 0x0, symName: __Z14get_expressionv, symObjAddr: 0x9F4, symBinAddr: 0x100001DE4, symSize: 0x64 }
+  - { offsetInCU: 0x93C, offset: 0x93C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA58, symBinAddr: 0x100001E48, symSize: 0x48 }
+  - { offsetInCU: 0x964, offset: 0x964, size: 0x8, addend: 0x0, symName: __Z14tree_visualizeP17diff_tree_element, symObjAddr: 0xAA0, symBinAddr: 0x100001E90, symSize: 0xCC }
+  - { offsetInCU: 0x99A, offset: 0x99A, size: 0x8, addend: 0x0, symName: __Z18print_tree_inorderP17diff_tree_element, symObjAddr: 0xB6C, symBinAddr: 0x100001F5C, symSize: 0xD4 }
+  - { offsetInCU: 0x9C2, offset: 0x9C2, size: 0x8, addend: 0x0, symName: __ZL16print_graph_nodeP17diff_tree_elementP7__sFILEi, symObjAddr: 0xC40, symBinAddr: 0x100002030, symSize: 0x1A0 }
+  - { offsetInCU: 0xA06, offset: 0xA06, size: 0x8, addend: 0x0, symName: __ZL18print_graph_arrowsP17diff_tree_elementP7__sFILE, symObjAddr: 0xDE0, symBinAddr: 0x1000021D0, symSize: 0xC8 }
+  - { offsetInCU: 0xA3C, offset: 0xA3C, size: 0x8, addend: 0x0, symName: __Z16create_new_graphv, symObjAddr: 0xEA8, symBinAddr: 0x100002298, symSize: 0xF8 }
+  - { offsetInCU: 0xA85, offset: 0xA85, size: 0x8, addend: 0x0, symName: __Z9html_dumpv, symObjAddr: 0xFA0, symBinAddr: 0x100002390, symSize: 0x128 }
+  - { offsetInCU: 0xACC, offset: 0xACC, size: 0x8, addend: 0x0, symName: __ZL17get_op_arg_number10operations, symObjAddr: 0x10C8, symBinAddr: 0x1000024B8, symSize: 0x7C }
+  - { offsetInCU: 0xB09, offset: 0xB09, size: 0x8, addend: 0x0, symName: __Z9tree_ctorP9diff_tree, symObjAddr: 0x1144, symBinAddr: 0x100002534, symSize: 0x50 }
+  - { offsetInCU: 0xB37, offset: 0xB37, size: 0x8, addend: 0x0, symName: __Z13get_op_symboli, symObjAddr: 0x1194, symBinAddr: 0x100002584, symSize: 0x7C }
+  - { offsetInCU: 0xB74, offset: 0xB74, size: 0x8, addend: 0x0, symName: __Z13get_op_numberPc, symObjAddr: 0x1210, symBinAddr: 0x100002600, symSize: 0xB0 }
+  - { offsetInCU: 0xBB1, offset: 0xBB1, size: 0x8, addend: 0x0, symName: __Z14read_node_dataPP17diff_tree_elementP7__sFILES1_, symObjAddr: 0x12C0, symBinAddr: 0x1000026B0, symSize: 0x21C }
+  - { offsetInCU: 0xC38, offset: 0xC38, size: 0x8, addend: 0x0, symName: __ZL12check_symbolcP7__sFILE, symObjAddr: 0x14DC, symBinAddr: 0x1000028CC, symSize: 0x98 }
+  - { offsetInCU: 0xC93, offset: 0xC93, size: 0x8, addend: 0x0, symName: __ZL18set_type_and_valued13types_of_nodeP17diff_tree_element, symObjAddr: 0x1574, symBinAddr: 0x100002964, symSize: 0xC8 }
+  - { offsetInCU: 0xCDF, offset: 0xCDF, size: 0x8, addend: 0x0, symName: __Z9read_dataP9diff_treePc, symObjAddr: 0x163C, symBinAddr: 0x100002A2C, symSize: 0xA4 }
+  - { offsetInCU: 0xD2B, offset: 0xD2B, size: 0x8, addend: 0x0, symName: __Z11tree_verifyP17diff_tree_element, symObjAddr: 0x16E0, symBinAddr: 0x100002AD0, symSize: 0x2B0 }
+  - { offsetInCU: 0xD59, offset: 0xD59, size: 0x8, addend: 0x0, symName: __Z11op_prioritydd, symObjAddr: 0x1990, symBinAddr: 0x100002D80, symSize: 0x6C }
+  - { offsetInCU: 0xD96, offset: 0xD96, size: 0x8, addend: 0x0, symName: __Z25print_tex_single_equationP17diff_tree_elementP7__sFILE, symObjAddr: 0x19FC, symBinAddr: 0x100002DEC, symSize: 0x380 }
+  - { offsetInCU: 0xDDE, offset: 0xDDE, size: 0x8, addend: 0x0, symName: __Z9print_texP17diff_tree_elementPc, symObjAddr: 0x1D7C, symBinAddr: 0x10000316C, symSize: 0x9C }
+  - { offsetInCU: 0xE2A, offset: 0xE2A, size: 0x8, addend: 0x0, symName: __Z9tree_dtorPP17diff_tree_element, symObjAddr: 0x1E18, symBinAddr: 0x100003208, symSize: 0xA8 }
+  - { offsetInCU: 0xE54, offset: 0xE54, size: 0x8, addend: 0x0, symName: __Z9tree_evalP17diff_tree_elementd, symObjAddr: 0x1EC0, symBinAddr: 0x1000032B0, symSize: 0x1E8 }
+...

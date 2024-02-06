@@ -1,0 +1,1 @@
+$$\frac{(\cos{x}*\cos{x}-(-1)*\sin{x}*\sin{x})}{\cos{x}^{2}}$$
