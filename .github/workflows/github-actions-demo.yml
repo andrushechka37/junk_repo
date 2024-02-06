@@ -8,4 +8,4 @@ jobs:
     - name: checkout repo
       uses: actions/checkout@main
     - name: build application
-      run: make back
+      run: make akinator
