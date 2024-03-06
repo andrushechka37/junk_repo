@@ -10,13 +10,13 @@ CXXFLAGS =  -D _DEBUG -ggdb3 -std=c++17 -O0 -Wall -Wextra -Weffc++ -Waggressive-
    -Wvariadic-macros -Wno-literal-suffix -Wno-missing-field-initializers -Wno-narrowing            \
    -Wno-old-style-cast -Wno-varargs -Wstack-protector -fcheck-new -fsized-deallocation             \
    -fstack-protector -fstrict-overflow -fno-omit-frame-pointer -Wlarger-than=8192                  \
-   -Wstack-usage=8192 -fsanitize=address -fsanitize=undefined -fPIE -Werror=vl -flto
+   -Wstack-usage=8192 -fsanitize=address -fsanitize=undefined -fPIE -Werror=vl
 
 
 
 # TODO: This is useful
 akinator: tree.o deff_dump.o diff.o recursive_down.o frontend.o
-	clang++ tree.o deff_dump.o diff.o recursive_down.o frontend.o $(CXXFLAGS) -o deff && ./deff
+	clang++ tree.o deff_dump.o diff.o recursive_down.o frontend.o $(CXXFLAGS) -o H/deff
 # TODO: make separate compile task
 
 deff_dump.o: diff_project/deff_dump.cpp diff_project/deff_dump.h diff_project/tree.h
